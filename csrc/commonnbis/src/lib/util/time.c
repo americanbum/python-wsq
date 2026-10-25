@@ -54,8 +54,6 @@ of the software.
       the current time and date.
 
       ROUTINES:
-#cat: current_time - returns a string containing the current date on the
-#cat:                system.
 
 ***********************************************************************/
 #include <stdio.h>
@@ -68,11 +66,19 @@ of the software.
 /************************************************************/
 char *current_time(void)
 {
-   long tm;
-   char *dptr;
+   static char dptr[26];
+   time_t now;
+   struct tm *tm;
 
-   tm = time((long *)NULL);
-   dptr = (char *)ctime(&tm);
-   *(dptr + strlen(dptr) - 1) = '\0';
-   return(dptr);
+   now = time(NULL);
+   tm = localtime(&now);
+   if (tm == NULL) {
+      return NULL;
+   }
+
+   if (strftime(dptr, sizeof(dptr), "%a %b %e %H:%M:%S %Y", tm) == 0) {
+      return NULL;
+   }
+
+   return dptr;
 }

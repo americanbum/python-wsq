@@ -56,15 +56,6 @@ of the software.
       obsolete.
 
       ROUTINES:
-#cat: wsq14_decode_file - Decompresses a WSQ-compressed datastream encoded
-#cat:           according to an old image format used in NIST Special
-#cat:           Database 14.  This routine should be used to decompress
-#cat:           legacy data only.  This old format should be considered
-#cat:           obsolete.
-#cat: wsq14_2_wsq - Converts a WSQ-compressed datastream encoded according
-#cat:           to an old image format used in NIST Special Database 14
-#cat:           to the WSQ format compliant with the FBI's WSQ Gray-Scale
-#cat:           Fingerprint Image Compression Specification.
 
 ***********************************************************************/
 

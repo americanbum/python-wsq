@@ -54,7 +54,6 @@ of the software.
       does not allow for an all 1's code in the code table.
 
       ROUTINES:
-#cat: check_huffcodes_wsq - Checks for an all 1's code in the code table.
 
 ***********************************************************************/
 

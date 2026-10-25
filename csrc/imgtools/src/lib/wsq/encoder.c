@@ -56,14 +56,6 @@ of the software.
       pixel data.
 
       ROUTINES:
-#cat: wsq_encode_mem - WSQ encodes image data storing the compressed
-#cat:                   bytes to a memory buffer.
-#cat: gen_hufftable_wsq - Generates a huffman table for a quantized
-#cat:                   data block.
-#cat: compress_block - Codes a quantized image using huffman tables.
-#cat:
-#cat: count_block - Counts the number of occurrences of each category
-#cat:                   in a huffman table.
 
 ***********************************************************************/
 

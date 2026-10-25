@@ -56,14 +56,6 @@ of the software.
       locate and parse a NISTCOM comment in the datastream.
 
       ROUTINES:
-#cat: read_ppi_wsq - Given a WSQ compressed data stream, attempts to
-#cat:                read a NISTCOM comment from an open file and
-#cat:                if possible return the pixel scan resulution
-#cat:                (PPI value) stored therein.
-#cat: getc_ppi_wsq - Given a WSQ compressed data stream, attempts to
-#cat:                read a NISTCOM comment from a memory buffer and
-#cat:                if possible return the pixel scan resulution
-#cat:                (PPI value) stored therein.
 
 ***********************************************************************/
 

@@ -53,8 +53,6 @@ of the software.
       Contains routines responsible for exiting upon an system error.
 
       ROUTINES:
-#cat: syserr - exits on error with a status of -1, printing to stderr a
-#cat:          caller-defined message.
 
 ***********************************************************************/
 

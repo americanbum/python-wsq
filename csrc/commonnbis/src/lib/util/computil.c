@@ -55,10 +55,6 @@ of the software.
       compression algorithm markers in a compressed datastream.
 
       ROUTINES:
-#cat: read_skip_marker_segment - skips the segment data following a
-#cat:           JPEGB, JPEGL, or WSQ marker in the open filestream.
-#cat: getc_skip_marker_segment - skips the segment data following a
-#cat:           JPEGB, JPEGL, or WSQ marker in the given memory buffer.
 
 ***********************************************************************/
 #include <stdio.h>

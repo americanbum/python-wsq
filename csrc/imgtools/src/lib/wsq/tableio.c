@@ -56,61 +56,6 @@ of the software.
       tables and blocks used by the WSQ encoder/decoder.
 
       ROUTINES:
-#cat: read_marker_wsq - Reads a specified WSQ marker from an open file.
-#cat:
-#cat: getc_marker_wsq - Reads a specified WSQ marker from a memory buffer.
-#cat:
-#cat: read_table_wsq - Reads a specified WSQ table from an open file.
-#cat:
-#cat: getc_table_wsq - Reads a specified WSQ table from a memory buffer.
-#cat:
-#cat: read_transform_table - Reads in a WSQ transform table from an
-#cat:                   open file.
-#cat: getc_transform_table - Reads in a WSQ transform table from a
-#cat:                   memory buffer.
-#cat: write_transform_table - Writes a WSQ transform table to an
-#cat:                   open file.
-#cat: putc_transform_table - Writes a WSQ transform table to a
-#cat:                   memory buffer.
-#cat: read_quantization_table - Reads a WSQ quantization table from an
-#cat:                   open file.
-#cat: getc_quantization_table - Reads a WSQ quantization table from a
-#cat:                   memory buffer.
-#cat: write_quantization_table - Writes a WSQ quantization table to an
-#cat:                   open file.
-#cat: putc_quantization_table - Writes a WSQ quantization table to a
-#cat:                   memory buffer.
-#cat: read_huffman_table_wsq - Reads a WSQ huffman table from an
-#cat:                   open file.
-#cat: getc_huffman_table_wsq - Reads a WSQ huffman table from a
-#cat:                   memory buffer.
-#cat: read_frame_header_wsq - Reads a WSQ Frame header from an open file.
-#cat:
-#cat: getc_frame_header_wsq - Reads a WSQ Frame header from a memory buffer.
-#cat:
-#cat: write_frame_header_wsq - Writes a WSQ Frame header to an open file.
-#cat:
-#cat: putc_frame_header_wsq - Writes a WSQ Frame header to a memory buffer.
-#cat:
-#cat: read_block_header - Reads a WSQ Block header from an open file.
-#cat:
-#cat: getc_block_header - Reads a WSQ Block header from a memory buffer.
-#cat:
-#cat: write_block_header - Writes a WSQ Block header to an open file.
-#cat:
-#cat: putc_block_header - Writes a WSQ Block header to a memory buffer.
-#cat:
-#cat: add_comment_wsq - Inserts a NISTCOM comment block into a
-#cat:                   WSQ compressed datastream through an open file.
-#cat: putc_nistcom_wsq - Inserts a NISTCOM comment block into a
-#cat:                   WSQ compressed datastream through a memory buffer.
-#cat: read_nistcom_wsq - Gets and returns the first NISTCOM comment block
-#cat:                   in an open file.
-#cat: getc_nistcom_wsq - Gets and returns the first NISTCOM comment block
-#cat:                   in a memory buffer.
-#cat: print_comments_wsq - Gets and prints the first NISTOCM comment block
-#cat:                   in a WSQ compressed memory buffer to a specified
-#cat:                   file pointer.
 
 ***********************************************************************/
 

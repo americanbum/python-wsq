@@ -54,9 +54,6 @@ of the software.
       in units of pixels per inch from a JPEGL compressed datastream.
 
       ROUTINES:
-#cat: get_ppi_jpegl - Given a JFIF Header from a JPEGL compressed
-#cat:                 datastream, extracts/derives the pixel scan
-#cat:                 resolution in units of pixel per inch.
 
 ***********************************************************************/
 

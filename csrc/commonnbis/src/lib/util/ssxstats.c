@@ -53,12 +53,6 @@ of the software.
       based statistics using simple numerical methods.
 
       ROUTINES:
-#cat: ssx_stddev - computes standard deviation based on sum of samples
-#cat:              and sum of the square of samples
-#cat: ssx_variance - comptues variance based on sum of samples
-#cat:              and sum of the square of samples
-#cat: ssx - fundamental computation to support variance and stddev
-#cat:
 
 ***********************************************************************/
 

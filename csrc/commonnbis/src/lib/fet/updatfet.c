@@ -55,12 +55,6 @@ of the software.
       a specified attribute in an attribute-value paird list.
 
       ROUTINES:
-#cat: updatefet - replaces a feature entry in an fet structure, or creates
-#cat:             a new entry if the feature does not already exist.
-#cat:             Exits on error.
-#cat: updatefet_ret - replaces a feature entry in an fet structure, or
-#cat:             creates a new entry if the feature does not already exist.
-#cat:             Returns on error.
 
 ***********************************************************************/
 

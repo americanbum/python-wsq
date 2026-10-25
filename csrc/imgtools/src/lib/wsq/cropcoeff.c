@@ -38,28 +38,6 @@ http://www.mitre.org/work/tech_papers/tech_papers_08/08_0060/index.html
       datastream to a smaller WSQ codestream via CropCoeff method.
 
       ROUTINES:
-#cat: quant_block_size2 - Near duplicate of function already in NBIS 
-#cat:                library, but passing a precomputed DQT_TABLE 
-#cat:                pointer rather than QUANT_VALS.
-#cat:                I.e. no rate control is performed in this version.
-#cat: wsq_crop_qdata - Crop quantized coeff structures.
-#cat: wsq_cropcoeff_mem - Crops input buffer of WSQ compressed bytes
-#cat:                into output WSQ buffer, by eliminating unneeded 
-#cat:                wavelet coefficients. First call (NULL output,
-#cat:                and NULL qdata) will decode original data. 
-#cat:                Subsequent calls reuse data, and do not repeat 
-#cat:                the decode.
-#cat: wsq_huffcode_mem - WSQ Huffman codes quantized coefficient array,
-#cat:                returning a changed memory buffer. Can be called
-#cat:                repeatedly with the same codestream header buffer.  
-#cat:                and won't reread the data.
-#cat: wsq_dehuff_mem - Decodes WSQ to a quantized coefficient array,
-#cat:                and stops. Internal decode info (dtt_table,dqt_table)
-#cat:                is retained. Call once, followed by multiple calls
-#cat:                to wsq_crop_qdata and wsq_huffcode_mem. 
-#cat: read_wsq_frame_header - Parses WSQ memory until the frame header is
-#cat:                found. The image dimensions and scale and shift
-#cat:                fields are read and returned.
 
 
 ***********************************************************************/

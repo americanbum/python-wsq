@@ -56,10 +56,6 @@ of the software.
       paired list.
 
       ROUTINES:
-#cat: extractfet - returns the specified feature entry from an fet structure.
-#cat:              Exits on error.
-#cat: extractfet_ret - returns the specified feature entry from an fet
-#cat:              structure.  Returns on error.
 
 ***********************************************************************/
 

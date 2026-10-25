@@ -54,11 +54,6 @@ of the software.
       paired list to and from a null-terminated string.
 
       ROUTINES:
-#cat: fet2string - takes an FET structure and concatenates (name,value)
-#cat:              pairs into a single null-terminated string with each
-#cat:              (name,value) pair delimited by a new-line.
-#cat: string2fet - parses a null-terminated string representing a
-#cat:              list of (name,value) pairs into an FET structure.
 
 ***********************************************************************/
 

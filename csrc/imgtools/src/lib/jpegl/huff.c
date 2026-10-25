@@ -54,32 +54,6 @@ of the software.
       tables used in JPEGL (lossless) image compression.
 
       ROUTINES:
-#cat: read_huffman_table - Reads a huffman table from an open file.
-#cat:
-#cat: getc_huffman_table - Reads a huffman table from a memory buffer.
-#cat:
-#cat: write_huffman_table - Writes a huffman table to an open file.
-#cat:
-#cat: putc_huffman_table - Writes a huffman table to a memory buffer.
-#cat:
-#cat: find_huff_sizes - Optimizes code sizes by the frequency of
-#cat:                   pixel difference values.
-#cat: find_least_freq - Finds the larges pixel difference with the
-#cat:                   least frequency.
-#cat: find_num_huff_sizes - Determines the number of codes for each size.
-#cat:
-#cat: sort_huffbits - Ensures that no huffman code size is greater than 16.
-#cat:
-#cat: sort_code_sizes - Sorts a list of huffman code sizes.
-#cat:
-#cat: build_huffcode_table - Sorts huffman codes and sizes.
-#cat:
-#cat: build_huffsizes - Defines the code sizes for each difference category.
-#cat:
-#cat: build_huffcodes - Defines the huffman codes need for each difference
-#cat:                   category.
-#cat: gen_decode_table - Generates the huffman decode table.
-#cat:
 
 ***********************************************************************/
 

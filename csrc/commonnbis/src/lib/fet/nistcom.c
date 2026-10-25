@@ -57,40 +57,6 @@ of the software.
       classification.
 
       ROUTINES:
-#cat: combine_nistcom - takes an initialized FET NISTCOM structure
-#cat:             or allocates one if necessary, and updates the
-#cat:             structure with general image attributes.
-#cat: combine_jpegl_nistcom - takes an initialized FET NISTCOM structure
-#cat:             or allocates one if necessary, and updates the
-#cat:             structure with JPEGL-specific image attributes.
-#cat: combine_wsq_nistcom - takes an initialized FET NISTCOM structure
-#cat:             or allocates one if necessary, and updates the
-#cat:             structure with WSQ-specific image attributes.
-#cat: combine_jpegb_nistcom - takes an initialized FET NISTCOM structure
-#cat:             or allocates one if necessary, and updates the
-#cat:             structure with JPEGB-specific image attributes.
-#cat: del_jpegl_nistcom - takes an initialized FET NISTCOM structure
-#cat:             and removes JPEGL compression attributes.
-#cat: del_wsq_nistcom - takes an initialized FET NISTCOM structure
-#cat:             and removes WSQ compression attributes.
-#cat: del_jpegb_nistcom - takes an initialized FET NISTCOM structure
-#cat:             and removes JPEGB compression attributes.
-#cat: sd_ihead_to_nistcom - takes an IHead header from a specified NIST
-#cat:             Special Database file, and parses specific attribute data
-#cat:             from the header into an FET NISTCOM structure.
-#cat: sd4_ihead_to_nistcom - takes an IHead header from a NIST Special
-#cat:             Database 4 file, and parses specific attribute data
-#cat:             from the header into an FET NISTCOM structure.
-#cat: sd9_10_14_ihead_to_nistcom - takes an IHead header from a NIST Special
-#cat:             Database 9,10,14 file, and parses specific attribute data
-#cat:             from the header into an FET NISTCOM structure.
-#cat: sd18_ihead_to_nistcom - takes an IHead header from a NIST Special
-#cat:             Database 18 file, and parses specific attribute data
-#cat:             from the header into an FET NISTCOM structure.
-#cat: get_sd_class - gets the class from a special database id field
-#cat:
-#cat: get_class_from_ncic_class_string - gets the class from a special
-#cat:             database ncic class string
 
 ***********************************************************************/
 

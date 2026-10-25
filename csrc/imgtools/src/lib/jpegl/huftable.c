@@ -55,16 +55,6 @@ of the software.
       used for JPEGL (lossless) image compression.
 
       ROUTINES:
-#cat: gen_huff_tables - Given frequency of difference categories, generates
-#cat:                   huffman tables for use with JPEGL compression.
-#cat: read_huffman_table_jpegl - Reads the next huffman table from an
-#cat:                   open JPEGL compressed file.
-#cat: getc_huffman_table_jpegl - Reads the next huffman table from a
-#cat:                   JPEGL compressed memory buffer.
-#cat: free_HUFF_TABLES - deallocates a list of huffman tables.
-#cat:
-#cat: free_HUFF_TABLE - deallocates a huffman table structure.
-#cat:
 
 ***********************************************************************/
 

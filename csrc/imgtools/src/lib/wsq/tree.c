@@ -54,18 +54,6 @@ of the software.
       used in WSQ image compression.
 
       ROUTINES:
-#cat: build_wsq_trees - Builds WSQ decomposition trees.
-#cat:
-#cat: build_w_tree - Build subband x-y locations for creating wavelets.
-#cat:
-#cat: w_tree4 - Derives location and size of subband splits.
-#cat:
-#cat: build_q_tree - Build WSQ quantization tree of all 64 wavelet
-#cat:                subband x-y locations and sizes.
-#cat: q_tree16 - Derive location and size for a 4x4 window of subbands.
-#cat:
-#cat: q_tree4 - Derive location and size for 2x2 window of subbands.
-#cat:
 
 ***********************************************************************/
 

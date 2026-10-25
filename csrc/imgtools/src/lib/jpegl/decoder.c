@@ -55,17 +55,6 @@ of the software.
       compressed data stream.
 
       ROUTINES:
-#cat: jpegl_decode_mem - Decodes a datastream of JPEGL compressed bytes
-#cat:                    from a memory buffer, returning a lossless
-#cat:                    reconstructed pixmap.
-#cat: build_huff_decode_table - Builds a table of pixel difference values.
-#cat:
-#cat: decode_data - Decodes compressed data buffer.
-#cat:
-#cat: nextbits_jpegl - Gets next sequence of bits for data decoding
-#cat:                    from an open file.
-#cat: getc_nextbits_jpegl - Gets next sequence of bits for data decoding
-#cat:                    from a memory buffer.
 
 ***********************************************************************/
 

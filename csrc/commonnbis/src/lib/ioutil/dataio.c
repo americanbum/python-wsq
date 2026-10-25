@@ -56,40 +56,6 @@ of the software.
       to/from either an open file or memory buffer.
 
       ROUTINES:
-#cat: read_byte - Reads a byte of data from an open file.
-#cat:
-#cat: getc_byte - Reads a byte of data from a memory buffer.
-#cat:
-#cat: getc_bytes - Reads a sequence of data bytes from a memory buffer.
-#cat:
-#cat: write_byte - Writes a byte of data to an open file.
-#cat:
-#cat: putc_byte - Writes a byte of data to a memory buffer.
-#cat:
-#cat: putc_byte - Writes a sequence of data bytes to a memory buffer.
-#cat:
-#cat: read_ushort - Reads an unsigned short from an open file.
-#cat:
-#cat: getc_ushort - Reads an unsigned short from a memory buffer.
-#cat:
-#cat: write_ushort - Writes an unsigned short to an open file.
-#cat:
-#cat: putc_ushort - Writes an unsigned short to a memory buffer.
-#cat:
-#cat: read_uint - Reads an unsigned integer from an open file.
-#cat:
-#cat: getc_uint - Reads an unsigned integer from a memory buffer.
-#cat:
-#cat: write_uint - Writes an unsigned integer to an open file.
-#cat:
-#cat: putc_uint - Writes an unsigned integer to a memory buffer.
-#cat:
-#cat: write_bits - Writes a sequence of bits to a memory buffer.
-#cat:
-#cat: flush_bits - Writes remaining bits to a memory buffer.
-#cat:
-#cat: read_ascii_file - Reads the contents of an ASCII text file
-#cat:              into a single null-terminated string.
 
 ***********************************************************************/
 

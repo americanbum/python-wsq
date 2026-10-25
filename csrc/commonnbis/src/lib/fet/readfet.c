@@ -56,10 +56,6 @@ of the software.
       paired list.
 
       ROUTINES:
-#cat: readfetfile - opens an fet file and reads its contents into an
-#cat:               fet structure.  Exits on error.
-#cat: readfetfile_ret - opens an fet file and reads its contents into an
-#cat:               fet structure.  Returns on error.
 
 ***********************************************************************/
 

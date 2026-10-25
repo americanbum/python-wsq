@@ -53,8 +53,6 @@ of the software.
       a data structure holding an attribute-value paired list.
 
       ROUTINES:
-#cat: printfet - dumps the contents of an fet structure to the specified
-#cat:            open file pointer.
 
 ***********************************************************************/
 

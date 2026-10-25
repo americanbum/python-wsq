@@ -55,37 +55,6 @@ of the software.
       image compression.
 
       ROUTINES:
-#cat: conv_img_2_flt_ret - Converts an image's unsigned character pixels
-#cat:                    to floating point values in the range +/- 128.0.
-#cat:                    Returns on error.
-#cat: conv_img_2_flt - Converts an image's unsigned character pixels
-#cat:                  to floating point values in the range +/- 128.0.
-#cat: conv_img_2_uchar - Converts an image's floating point pixels
-#cat:                  unsigned character pixels.
-#cat: variance - Calculates the variances within image subbands.
-#cat:
-#cat: quantize - Quantizes the image's wavelet subbands.
-#cat:
-#cat: quant_block_sizes - Quantizes an image's subband block.
-#cat:
-#cat: unquantize - Unquantizes an image's wavelet subbands.
-#cat:
-#cat: wsq_decompose - Computes the wavelet decomposition of an input image.
-#cat:
-#cat: get_lets - Compute the wavelet subband decomposition for the image.
-#cat:
-#cat: wsq_reconstruct - Reconstructs a lossy floating point pixmap from
-#cat:                  a WSQ compressed datastream.
-#cat: join_lets - Reconstruct the image from the wavelet subbands.
-#cat:
-#cat: int_sign - Get the sign of the sythesis filter coefficients.
-#cat:
-#cat: image_size - Computes the size in bytes of a WSQ compressed image
-#cat:                  file, including headers, tables, and parameters.
-#cat: init_wsq_decoder_resources - Initializes memory resources used by the
-#cat:                      WSQ decoder
-#cat: free_wsq_decoder_resources - Deallocates memory resources used by the
-#cat:                      WSQ decoder
 
 ***********************************************************************/
 
@@ -1363,7 +1332,6 @@ void free_wsq_decoder_resources()
 
 /************************************************************************
              
-#cat: delete_comments_wsq - Deletes all comments in a WSQ compressed file.
       
 *************************************************************************/
    

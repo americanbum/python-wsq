@@ -56,17 +56,6 @@ of the software.
       related attributes.
 
       ROUTINES:
-#cat: get_IMG_DAT_image - Extracts the image pixmap and returns its
-#cat:                     attributes stored in an IMG_DAT structure.
-#cat: setup_IMG_DAT_nonintrlv_encode - Initialize an IMG_DAT structure
-#cat:                     for JPEGL compressing a non-interleaved pixmap.
-#cat: setup_IMG_DAT_decode - Initialize an IMG_DAT structure for
-#cat:                     compressing a general pixmap.
-#cat: update_IMG_DAT_decode - Augments an IMG_DAT structure used for
-#cat:                     decompression with attributes derived from a
-#cat:                     JPEGL SCN Header, including the allocation for
-#cat:                     the reconstructred pixmap.
-#cat: free_IMG_DAT - Deallocates an IMG_DAT structure.
 
 ***********************************************************************/
 

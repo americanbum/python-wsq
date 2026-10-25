@@ -54,10 +54,6 @@ of the software.
       (lossless) image compression.
 
       ROUTINES:
-#cat: predict - Used to predict the pixel values in an image.
-#cat:
-#cat: categorize - Determines the category for a given difference value.
-#cat:
 
 ***********************************************************************/
 

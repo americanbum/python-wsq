@@ -55,8 +55,6 @@ of the software.
 ***********************************************************************
 
       ROUTINES:
-#cat: bres_line_alloc - generates the intervening discrete points along a
-#cat:                   line spanning (pnt1 to pnt2) two specified endpoints.
 
 ***********************************************************************/
 

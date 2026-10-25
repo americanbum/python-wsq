@@ -54,8 +54,6 @@ of the software.
       data byte from MSB to LSB and vice versa.
 
       ROUTINES:
-#cat: inv_bytes - takes an array of bytes and inverts them using a
-#cat:             lookup table. invert = reverse bits within a byte
 
 ***********************************************************************/
 #include <invbyte.h>

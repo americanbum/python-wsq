@@ -55,11 +55,6 @@ of the software.
       This format should be considered obsolete.
 
       ROUTINES:
-#cat: jpegl_sd4_decode_mem - Decompresses a JPEGL-compressed datastream
-#cat:           according to the old image format used in NIST Special
-#cat:           Database 4.  This routine should be used to decompress
-#cat:           legacy data only.  This old format should be considered
-#cat:           obsolete.
 
 ***********************************************************************/
 

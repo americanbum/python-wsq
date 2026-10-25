@@ -54,8 +54,6 @@ of the software.
       a specified attribute in and attribute-value paired list.
 
       ROUTINES:
-#cat: lookupfet - returns the specified feature entry from an fet
-#cat:             structure.  Returns TRUE if found, FALSE if not.
 
 ***********************************************************************/
 

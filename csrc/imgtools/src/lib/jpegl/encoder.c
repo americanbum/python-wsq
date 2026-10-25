@@ -55,14 +55,6 @@ of the software.
       image pixel data.
 
       ROUTINES:
-#cat: jpegl_encode_mem - JPEGL encodes image data storing the compressed
-#cat:                    bytes to a memory buffer.
-#cat: gen_diff_freqs - Computes pixel differences and their fequency.
-#cat:
-#cat: compress_image_intrlv - Compresses difference values from
-#cat:                    non-interleaved image data.
-#cat: code_diff - Huffman encodes difference values.
-#cat:
 
 ***********************************************************************/
 

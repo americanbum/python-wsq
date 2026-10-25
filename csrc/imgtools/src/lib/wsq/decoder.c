@@ -55,24 +55,6 @@ of the software.
       datastream.
 
       ROUTINES:
-#cat: wsq_decode_mem - Decodes a datastream of WSQ compressed bytes
-#cat:                  from a memory buffer, returning a lossy
-#cat:                  reconstructed pixmap.
-#cat: wsq_decode_file - Decodes a datastream of WSQ compressed bytes
-#cat:                  from an open file, returning a lossy
-#cat:                  reconstructed pixmap.
-#cat: huffman_decode_data_mem - Decodes a block of huffman encoded
-#cat:                  data from a memory buffer.
-#cat: huffman_decode_data_file - Decodes a block of huffman encoded
-#cat:                  data from an open file.
-#cat: decode_data_mem - Decodes huffman encoded data from a memory buffer.
-#cat:
-#cat: decode_data_file - Decodes huffman encoded data from an open file.
-#cat:
-#cat: nextbits_wsq - Gets next sequence of bits for data decoding from
-#cat:                    an open file.
-#cat: getc_nextbits_wsq - Gets next sequence of bits for data decoding
-#cat:                    from a memory buffer.
 
 ***********************************************************************/
 

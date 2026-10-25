@@ -53,8 +53,6 @@ of the software.
       structure used to hold an attribute-value paired list.
 
       ROUTINES:
-#cat: freefet - deallocates the memory for an fet structure.
-#cat:
 
 ***********************************************************************/
 

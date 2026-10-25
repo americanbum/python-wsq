@@ -54,10 +54,6 @@ of the software.
       attribute-value paired list.
 
       ROUTINES:
-#cat: deletefet - removes the specified feature entry from an fet structure.
-#cat:             Exits on error.
-#cat: deletefet_ret - removes the specified feature entry from an fet
-#cat:             structure.  Returns on error.
 
 ***********************************************************************/
 

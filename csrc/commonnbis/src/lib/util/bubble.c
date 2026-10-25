@@ -52,9 +52,6 @@ of the software.
 ***********************************************************************
 
       ROUTINES:
-#cat: bubble_sort_int - sorts a list of integers into decreasing order with a
-#cat:                   bubble sort. It is destructive to the integer list
-#cat:                   passed to it.
 
 ***********************************************************************/
 

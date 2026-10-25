@@ -54,10 +54,6 @@ of the software.
       an attribute-value paired list to a file.
 
       ROUTINES:
-#cat: writefetfile - write the contents of an fet structure to the
-#cat:                specified file.  Exits on error.
-#cat: writefetfile_ret - write the contents of an fet structure to the
-#cat:                specified file.  Returns on error.
 
 ***********************************************************************/
 

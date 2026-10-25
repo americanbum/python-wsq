@@ -7,7 +7,7 @@ the US Federal Government in the course of their official duties. It is not
 subject to copyright protection and is in the public domain.
 (See https://www.nist.gov/document/nigoslicdis061906pdf for more information)
 
-Contributors
++ Stevens McCoy Louis Stevens 
 ------------
 
 - Oivier Heurtier <olivier.heurtier@free.fr> `@olivier-heurtier <https://github.com/olivier-heurtier>`_

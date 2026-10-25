@@ -53,10 +53,6 @@ of the software.
       cycles (ticks) used by a process.
 
       ROUTINES:
-#cat: ticks - returns the number of clock cycles (ticks) used by a process.
-#cat:
-#cat: ticksPerSec - returns the system definition for HZ, where 1/HZ seconds
-#cat:               is a tick (HZ = 60).
 
 ***********************************************************************/
 #include <sys/types.h>

@@ -54,14 +54,6 @@ of the software.
       used to hold attribute-value paired lists.
 
       ROUTINES:
-#cat: allocfet - allocates and initialized an empty fet structure.
-#cat:            Exits on error.
-#cat: allocfet_ret - allocates and initialized an empty fet structure.
-#cat:            Returns on error.
-#cat: reallocfet - reallocates an fet structure of a
-#cat:            specified length.  Exits on error.
-#cat: reallocfet_ret - reallocates an fet structure of a
-#cat:            specified length.  Returns on error.
 
 ***********************************************************************/
 

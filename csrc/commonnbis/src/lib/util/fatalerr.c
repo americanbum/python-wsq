@@ -53,8 +53,6 @@ of the software.
       Contains routines responsible for exiting upon an application error.
 
       ROUTINES:
-#cat: fatalerr - generic application error handler that prints a specified
-#cat:            message to stderr and exits with a status of 1.
 
 ***********************************************************************/
 

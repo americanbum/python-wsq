@@ -53,8 +53,6 @@ of the software.
       a file in bytes given its path name.
 
       ROUTINES:
-#cat: filesize - opens the specified pathname and determines the size of
-#cat:            of the file in bytes.
 
 ***********************************************************************/
 

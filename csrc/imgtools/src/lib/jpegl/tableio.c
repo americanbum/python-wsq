@@ -56,61 +56,6 @@ of the software.
       encoder/decoder.
 
       ROUTINES:
-#cat: read_marker_jpegl - Read a specified JPEGL marker from 
-#cat:                     an open file.
-#cat: getc_marker_jpegl - Read a specified JPEGL marker from
-#cat:                     a memory buffer.
-#cat: setup_jfif_header - Initializes a JFIF Header for JPEGL compression
-#cat:                     given pixel scan resolution attributes.
-#cat: read_jfif_header - Reads a JFIF Header from an open JPEGL
-#cat:                    compressed file.
-#cat: getc_jfif_header - Reads a JFIF Header from a JPEGL compressed
-#cat:                    memory buffer.
-#cat: write_jfif_header - Writes a JFIF Header to an open file.
-#cat:
-#cat: putc_jfif_header - Writes a JFIF Header to a memory buffer.
-#cat:
-#cat: read_table_jpegl - Reads huffman tables or comment blocks from
-#cat:                    an open file.
-#cat: getc_table_jpegl - Reads huffman tables or comment blocks from
-#cat:                    a memory buffer.
-#cat: setup_frame_header_jpegl - Initializes a JPEGL Frame Header given
-#cat:                    attributes of the pixmap to be compressed.
-#cat: read_frame_header_jpegl - Reads a Frame Header from an open
-#cat:                    JPEGL compressed file.
-#cat: getc_frame_header_jpegl - Reads a Frame Header from a JPEGL
-#cat:                    compressed memory buffer.
-#cat: write_frame_header_jpegl - Writes a JPEGL Frame Header to
-#cat:                    an open file.
-#cat: putc_frame_header_jpegl - Writes a JPEGL Frame Header to
-#cat:                    a memory buffer.
-#cat: setup_scan_header - Initializes a JPEGL SCN Header given attributes
-#cat:                    of the pixmap to be compressed.
-#cat: read_scan_header - Reads a SCN Header fram an open
-#cat:                    JPEGL compressed file.
-#cat: getc_scan_header - Reads a SCN Header fram a JPEGL
-#cat:                    compressed memory buffer.
-#cat: write_scan_header - Writes a JPEGL SCN Header to an open file.
-#cat:
-#cat: putc_scan_header - Writes a JPEGL SCN Header to a memory buffer.
-#cat:
-#cat: read_comment - Reads the contents of a JPEGL comment block from
-#cat:                    an open file, returning the comment text as a
-#cat:                    null-terminated string.
-#cat: getc_comment - Reads the contents of a JPEGL comment block from
-#cat:                    a memory buffer, returning the comment text as a
-#cat:                    null-terminated string.
-#cat: write_comment - Writes a text string out as a JPEGL comment block
-#cat:                    to an open file.
-#cat: putc_comment - Writes a text string out as a JPEGL comment block
-#cat:                    to a memory buffer.
-#cat: add_comment_jpegl - Inserts a comment block into a preexisting JPEGL
-#cat:                    datastream.
-#cat: getc_nistcom_jpegl - Find and return the first NISTCOM comment block
-#cat:                    from a JPEGL encoded datastream.
-#cat: putc_nistcom_jpegl - Generate a JPEGL NISTCOM comment from the
-#cat:                    attributes passed, and writes the NISTCOM and
-#cat:                    possibly a general comment to a memory buffer.
 
 ***********************************************************************/
 
